@@ -64,3 +64,21 @@ console.log(people);
 
 people.sort((a, b) => a.name.localeCompare(b.name))
 console.log(people);
+
+let inova = {
+    a: 'b',
+    b: [
+        {
+            a: 'a',
+            b: 'b'
+        },
+        {
+            a:'b',
+            b:'c'
+        }
+    ]
+}
+
+console.log(inova.b['a']);
+console.log(inova.b.a);
+
